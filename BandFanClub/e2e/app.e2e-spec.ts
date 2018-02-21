@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { ClubManagerPage } from './app.po';
 
-describe('band-fan-club App', () => {
-  let page: AppPage;
+describe('club-manager App', () => {
+  let page: ClubManagerPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new ClubManagerPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });

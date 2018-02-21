@@ -14,4 +14,5 @@ export class AppComponent implements OnInit {
          this.apiValues = values.json() as string[];
       });
    }
+   title = 'Prom Date Mixtape Fan Club!';
 }
